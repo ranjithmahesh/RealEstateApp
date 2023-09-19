@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hero.css";
-import {HiLocationMarker} from "react-icons/hi"
+import { HiLocationMarker } from "react-icons/hi";
 
 function Hero() {
   return (
@@ -11,8 +11,10 @@ function Hero() {
           <div className="hero-title">
             <div className="orange-circle"></div>
             <h1>
-              Discover<br /> 
-              Most Suitable<br /> 
+              Discover
+              <br />
+              Most Suitable
+              <br />
               Property
             </h1>
           </div>
@@ -21,10 +23,9 @@ function Hero() {
             <span>Forget all difficulties in finding a residence for you</span>
           </div>
           <div className="flexCenter search-bar">
-<HiLocationMarker  color="var(--blue)" size={25}/>
-<input type="text"/>
-<button className="button">Search</button>
-
+            <HiLocationMarker color="var(--blue)" size={25} />
+            <input type="text" />
+            <button className="button">Search</button>
           </div>
         </div>
         {/* rightSide */}
